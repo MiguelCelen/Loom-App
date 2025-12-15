@@ -1,0 +1,16 @@
+/* algemeen */
+*{ 
+  box-sizing:border-box; 
+  font-family:"agrandir";
+}
+html,body{ 
+  height:100%; 
+}
+body{
+  margin:0;
+  background:#fff;
+  color:#8E8C6F;
+}
+a{
+  text-decoration:none; 
+}

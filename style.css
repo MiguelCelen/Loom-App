@@ -102,3 +102,46 @@ body{
 .screen .avatar-4{ 
   transform: translateY(-40px) rotate(-28deg); 
 }
+.screen .content{
+  padding: 44px 22px 44px;
+  text-align:center;
+}
+.screen .content__title{
+  margin: 0 0 18px;
+  color:#8E8C6F;
+  font-weight:400;
+  font-size:52px;
+  line-height:1.05;
+}
+.screen .content__text{
+  margin: 0 auto 44px;
+  max-width: 28ch;
+  color:#8E8C6F;
+  font-weight:400;
+  font-size:24px;
+  line-height:1.1;
+}
+.screen .btn{
+  width: min(340px, 92%);
+  height: 60px;
+  margin: 0 auto;
+  border-radius:18px;
+  background:#7F7B62;
+  color:#F3F1E6;
+  font-weight:400;
+  font-size:22px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:14px;
+}
+.screen .btn:active{ 
+    transform: translateY(1px); 
+}
+.screen .btn__icon{
+  width:28px;
+  height:28px;
+  object-fit:contain;
+  display:block;
+  filter: brightness(0) invert(1);
+}

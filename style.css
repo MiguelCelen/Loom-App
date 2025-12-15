@@ -47,3 +47,58 @@ body{
   border-radius:999px;
   z-index:1;
 }
+.screen .hero__inner{ 
+  position:relative; z-index:2; 
+}
+.screen .hero__title{
+  margin:0;
+  color:#F3F1E6;
+  font-weight:400;
+  font-size:48px;
+  line-height:1.02;
+  letter-spacing:.2px;
+}
+.screen .hero__at{
+  margin: 10px 0 10px;
+  color:#F3F1E6;
+  font-weight:400;
+  font-size:26px;
+  line-height:1;
+}
+.screen .hero__logo{ 
+  width: 260px; 
+  margin: 0 auto; 
+}
+.screen .hero__logo svg{ 
+  width:100%; 
+  height:auto; 
+  display:block; 
+}
+.screen .hero__avatars{
+  position:absolute;
+  left:50%;
+  padding-top: 80px;
+  transform:translateX(-50%);
+  display:flex;
+  align-items:flex-end;
+  z-index:3;
+}
+.screen .avatar{
+  width:92px;
+  height:92px;
+  object-fit:contain;
+  display:block;
+  border-radius:50%;
+}
+.screen .avatar-1{
+  transform: translateY(-40px) rotate(28deg); 
+}
+.screen .avatar-2{ 
+  transform: translateY(-5px) rotate(5deg); 
+}
+.screen .avatar-3{ 
+  transform: translateY(0) rotate(-5deg); 
+}
+.screen .avatar-4{ 
+  transform: translateY(-40px) rotate(-28deg); 
+}

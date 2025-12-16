@@ -1,3 +1,3 @@
-document.getElementById("winkelmand").addEventListener("click", () => {
+document.querySelector(".winkelmand").addEventListener("click", () => {
   window.location.href = "payment.html";
 });
